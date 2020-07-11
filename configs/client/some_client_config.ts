@@ -1,0 +1,1 @@
+export const someConfigKey = process.env.NEXT_PUBLIC_SOME_CLIENT_CONFIG

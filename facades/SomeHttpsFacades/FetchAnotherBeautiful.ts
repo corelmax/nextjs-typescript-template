@@ -1,0 +1,1 @@
+export default async () => 'You are more beautiful than you thing :)'

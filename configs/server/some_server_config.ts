@@ -1,0 +1,1 @@
+export const SomeServerConfigKey = process.env.SOME_SERVER_CONFIG
