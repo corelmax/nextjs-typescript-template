@@ -1,13 +1,13 @@
 import React from 'react'
-import Layout from '../components/layout';
+import Layout from '../components/layout'
 import Head from 'next/head'
-import { GetServerSideProps, GetServerSidePropsContext } from 'next';
+import { GetServerSideProps, GetServerSidePropsContext } from 'next'
 import FetchSomeThingBeautiful from '../facades/SomeHttpsFacades/FetchSomeThingBeautiful'
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react'
 import FetchAnotherBeautiful from '../facades/SomeHttpsFacades/FetchAnotherBeautiful'
 
 export default ({somethingBeautiful, ...props}) => {
-  
+
   const [something, setSomething] = useState(somethingBeautiful)
 
   useEffect(() => {
@@ -29,7 +29,7 @@ export default ({somethingBeautiful, ...props}) => {
   </Layout>
   )
 }
-  
+
 export const getServerSideProps: GetServerSideProps = async (context: GetServerSidePropsContext) => {
   return {
     props: {

@@ -1,0 +1,21 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+      "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+      "no-trailing-whitespace": [true, "always"],
+      "prefer-const": [true, {"destructuring": "any"}],
+      "semicolon": [true, "never"],
+      "quotemark": [true, "single"],
+      "only-arrow-functions": {
+        "severity": "warn"
+      },
+      "no-console": {
+          "severity": "warn"
+      },
+      "object-literal-sort-keys": false
+  },
+  "rulesDirectory": []
+}
