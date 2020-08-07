@@ -16,7 +16,7 @@
     "@fortawesome/react-fontawesome": "^0.1.9",
     "@types/js-cookie": "^2.2.6",
     "@types/multer": "^1.4.3",
-    "class-transformer": "^0.2.3",
+    "class-transformer": "^0.3.1",
     "class-validator": "^0.12.2",
     "classnames": "^2.2.6",
     "date-fns": "^2.11.1",
